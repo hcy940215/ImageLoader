@@ -3,6 +3,7 @@ package com.shengmingji.custorview;
 import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 return null;
             }
         });
+
+        Toast.makeText(this, "测试", Toast.LENGTH_SHORT).show();
     }
 }
